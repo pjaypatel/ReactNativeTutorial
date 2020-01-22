@@ -13,6 +13,7 @@ import FixedDimensions from './FixedDimensions';
 import FlexDimensions from './FlexDimensions';
 import FlexDirections from './FlexDirections';
 import JustifyContent from './JustifyContent';
+import HandlingTextInput from './HandlingTextInput';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => JustifyContent);
+AppRegistry.registerComponent(appName, () => HandlingTextInput);
